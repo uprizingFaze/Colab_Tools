@@ -31,7 +31,7 @@ function Hero() {
           <span className="absolute -bottom-0 left-[1.125rem] h-px w-[calc(100%-2.25rem)] bg-gradient-to-r from-emerald-400/0 via-emerald-400/90 to-emerald-400/0 transition-opacity duration-500 group-hover:opacity-40" />
         </button>
         <div className="p-12 text-center">
-          <h1>Sitio web para trabajos colaborativos </h1>
+          <h1>Sitio web para trabajos en equipos </h1>
           <div className="text-3xl sm:text-4xl lg:text-5xl xl:text-6xl gradient-text">
             Colabora rápido y eficientemente
           </div>
@@ -46,6 +46,8 @@ function Hero() {
           <div className="text-xs text-slate-600 dark:text-gray-400 mt-5">excelente rendimiento en tiempo real </div>
         </div>
       </div>
+    <div>
+    </div>
     </section>
   );
 }

@@ -1,10 +1,11 @@
-import { ModeToggle } from "@/components/button-theme";
+import { ModeToggle } from "@/components/theme/button-theme";
+import  Hero  from "@/components/hero/hero";
 
 export default function Home() {
   return (
     <main>
-      <h1>Home</h1>
       <ModeToggle />
+      <Hero />
     </main>
   );
 }

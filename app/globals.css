@@ -36,13 +36,13 @@
     }
 
     .dark {
-        --background: 229 84% 5%;
+        --background: 0 0% 0%;
         --foreground: 60 9.1% 97.8%;
 
         --card: 20 14.3% 4.1%;
         --card-foreground: 60 9.1% 97.8%;
 
-        --popover: 229 84% 5%;
+        --popover: 0 0% 0%;
         --popover-foreground: 60 9.1% 97.8%;
 
         --primary: 60 9.1% 97.8%;
@@ -54,7 +54,7 @@
         --muted: 12 6.5% 15.1%;
         --muted-foreground: 24 5.4% 63.9%;
 
-        --accent: 221 39% 11%;
+        --accent: 12 0% 8%;
         --accent-foreground: 60 9.1% 97.8%;
 
         --destructive: 0 62.8% 30.6%;
@@ -76,7 +76,7 @@
 
     .dark .custom-bg {
         @apply absolute top-0 z-[-2] h-screen w-screen bg-black;
-        background-image: radial-gradient(#ffffff33 1px, #020617 1px);
+        background-image: radial-gradient(#ffffff33 1px, #000000 1px);
         background-size: 20px 20px;
     }
 }

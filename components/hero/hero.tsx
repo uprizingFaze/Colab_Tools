@@ -47,7 +47,7 @@ export function Hero() {
           </div>
         </div>
         <Cards />
-      </div>
+      </div>w
     </section>
   );
 }

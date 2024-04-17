@@ -1,5 +1,6 @@
 import React from "react";
 import { Button } from "@/components/ui/button";
+import { Cards } from "@/components/hero/cards";
 
 export function Hero() {
   return (
@@ -53,7 +54,7 @@ export function Hero() {
             </div>
           </div>
         </div>
-
+        <Cards />
       </div>
     </section>
   );

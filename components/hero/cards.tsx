@@ -6,41 +6,41 @@ import { Tabs } from "../ui/tabs";
 export function Cards() {
   const tabs = [
     {
-      title: "Product",
-      value: "product",
+      title: "Editor de codigo",
+      value: "Editor de codigo",
       content: (
-        <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-black bg-black  ">
-          <p>Product Tab</p>
+        <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-black bg-black ring-white/30 ring-1 ">
+          <p>Editor de codigo</p>
           <CodeImg />
         </div>
       ),
     },
     {
-      title: "Services",
-      value: "services",
+      title: "Editor de Texto",
+      value: "Editor de Texto",
       content: (
-        <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-purple-700 to-violet-900">
-          <p>Services tab</p>
+        <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-black bg-black ring-white/30 ring-1">
+          <p>Editor de Texto</p>
           <TextImg />
         </div>
       ),
     },
     {
-      title: "Playground",
-      value: "playground",
+      title: "Editor de diagramas",
+      value: "Editor de diagramas",
       content: (
-        <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-purple-700 to-violet-900">
-          <p>Playground tab</p>
+        <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-black bg-black ring-white/30 ring-1">
+          <p>Editor de diagramas</p>
           <DiagramImg />
         </div>
       ),
     },
     {
-      title: "Content",
-      value: "content",
+      title: "Hoja de calculo",
+      value: "Hoja de calculo",
       content: (
-        <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-purple-700 to-violet-900">
-          <p>Content tab</p>
+        <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-black bg-black ring-white/30 ring-1">
+          <p>Hoja de calculo</p>
           <HojaImg />
         </div>
       ),

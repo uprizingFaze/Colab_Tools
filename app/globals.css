@@ -87,7 +87,7 @@
     }
 
     body {
-        @apply bg-background text-foreground overflow-y-auto overflow-x-hidden;
+        @apply bg-background text-foreground overflow-visible overflow-x-hidden;
     }
 
     .gradient-text {

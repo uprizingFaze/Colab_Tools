@@ -4,8 +4,8 @@ import { Cards } from "@/components/hero/cards";
 
 export function Hero() {
   return (
-    <section className="pt-44">
-      <div className="flex flex-col overflow-hidden ">
+    <section className="pt-44 mx-5">
+      <div className="flex flex-col">
         <div className="flex flex-col justify-center items-center ">
           <button className="bg-slate-300 dark:bg-black no-underline group cursor-pointer relative shadow-2xl shadow-zinc-900 rounded-full p-px text-xs font-semibold leading-6  text-white inline-block">
             <span className="absolute inset-0 overflow-hidden rounded-full">
@@ -44,14 +44,6 @@ export function Hero() {
               <br />
               en esta facil y rapida plataforma
             </p>
-            <div>
-              <Button size="lg" className="mt-10">
-                Vamos a colaboarar
-              </Button>
-            </div>
-            <div className="text-xs text-slate-600 dark:text-gray-400 mt-5">
-              excelente rendimiento en tiempo real{" "}
-            </div>
           </div>
         </div>
         <Cards />

@@ -6,17 +6,17 @@ import { Tabs } from "../ui/tabs";
 export function Cards() {
   const tabs = [
     {
-      title: "Editor de codigo",
+      title: "Código",
       value: "Editor de codigo",
       content: (
         <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-white bg-black ring-white/30 ring-1 ">
-          <p>Editor de codigo</p>
+          <p>Editor de Código</p>
           <CodeImg />
         </div>
       ),
     },
     {
-      title: "Editor de Texto",
+      title: "Texto",
       value: "Editor de Texto",
       content: (
         <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-white bg-black ring-white/30 ring-1">
@@ -26,7 +26,7 @@ export function Cards() {
       ),
     },
     {
-      title: "Editor de diagramas",
+      title: "Diagramas",
       value: "Editor de diagramas",
       content: (
         <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-white bg-black ring-white/30 ring-1">
@@ -36,7 +36,7 @@ export function Cards() {
       ),
     },
     {
-      title: "Hoja de calculo",
+      title: "Calculo",
       value: "Hoja de calculo",
       content: (
         <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-white bg-black ring-white/30 ring-1">

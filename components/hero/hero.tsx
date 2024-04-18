@@ -13,7 +13,7 @@ export function Hero() {
             </span>
             <div className="relative flex space-x-2 items-center z-10 rounded-full bg-white dark:bg-black py-0.5 px-4 ring-1 ring-black/20 dark:ring-white/30 ">
               <span className="text-black dark:text-white">
-                Spots Available
+                by uprizingFaze
               </span>
               <svg
                 className="text-black dark:text-white"
@@ -38,7 +38,7 @@ export function Hero() {
             <div className="md:text-8xl text-5xl font-bold gradient-text">
               Colabora. Sin límites. Sin demoras.
             </div>
-            <p className="text-xl md:text-2xl text-zinc-400 dark:text-gray-400 mt-8">
+            <p className="text-xl md:text-3xl text-zinc-500 dark:text-gray-400-400 mt-8">
               Pon en marcha tus grandes ideas con tus compañeros rapidamente
               <br />
               en esta facil y rapida plataforma

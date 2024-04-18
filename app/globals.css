@@ -70,7 +70,7 @@
 @layer components {
     .custom-bg {
         @apply absolute inset-0 -z-10 h-full w-full bg-white;
-        background-image: radial-gradient(#e5e7eb 1px, transparent 1px);
+        background-image: radial-gradient(#d1d3d7 1px, transparent 1px);
         background-size: 16px 16px;
     }
 
@@ -91,7 +91,7 @@
     }
 
     .gradient-text {
-        @apply bg-clip-text text-transparent bg-gradient-to-b from-white to-stone-700;
+        @apply bg-clip-text text-transparent bg-gradient-to-b from-stone-600 dark:from-white to-stone-950 dark:to-stone-700;
     }
 
     .gradient-text-effect {

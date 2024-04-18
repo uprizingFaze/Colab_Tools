@@ -6,7 +6,7 @@ export function Info() {
     <section className="p-4">
       <div className="flex items-center justify-center h-screen bg-black rounded-xl ring-white/30 ring-1">
         <div className="flex flex-col items-center justify-center text-center">
-          <div className="text-2xl font-semibold text-white mb-6">
+          <div className="text-xl md:text-4xl font-semibold text-white mb-6">
             Colab Tools
           </div>
           <div className="md:text-8xl text-5xl font-bold bg-clip-text text-transparent bg-gradient-to-b from-white to-stone-700">
@@ -23,7 +23,7 @@ export function Info() {
             </p>
           </div>
           <div className="mt-16">
-            <Button variant="outline">Ver herramientas</Button>
+            <Button variant="me">Ver herramientas</Button>
           </div>
         </div>
       </div>

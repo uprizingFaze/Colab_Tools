@@ -75,9 +75,9 @@
     }
 
     .dark .custom-bg {
-        @apply absolute top-0 z-[-2] h-screen w-screen bg-black;
+        @apply absolute top-0 z-[-2] h-full w-full bg-black;
         background-image: radial-gradient(#ffffff33 1px, #000000 1px);
-        background-size: 20px 20px;
+        background-size: 16px 16px;
     }
 }
 
@@ -91,7 +91,7 @@
     }
 
     .gradient-text {
-        @apply bg-clip-text text-transparent bg-gradient-to-r from-cyan-400 to-fuchsia-500;
+        @apply bg-clip-text text-transparent bg-gradient-to-b from-white to-stone-700;
     }
 
     .gradient-text-effect {
@@ -99,30 +99,3 @@
     }
 }
 
-h1 {
-    @apply text-3xl sm:text-4xl lg:text-5xl xl:text-6xl dark:text-white text-black;
-}
-
-h2 {
-    @apply text-2xl sm:text-3xl lg:text-4xl xl:text-5xl dark:text-white text-black;
-}
-
-h4 {
-    @apply text-base sm:text-xl lg:text-2xl xl:text-3xl dark:text-white text-black;
-}
-
-h3 {
-    @apply text-base sm:text-sm lg:text-lg xl:text-xl dark:text-white text-black;
-}
-
-h5 {
-    @apply text-base sm:text-lg lg:text-xl xl:text-2xl dark:text-white text-black;
-}
-
-h6 {
-    @apply sm:text-xs xl:text-sm font-normal tracking-widest uppercase dark:text-slate-500 text-slate-600;
-}
-
-p {
-    @apply text-slate-600 dark:text-gray-400;
-}

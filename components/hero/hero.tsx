@@ -35,11 +35,10 @@ export function Hero() {
             <span className="absolute -bottom-0 left-[1.125rem] h-px w-[calc(100%-2.25rem)] bg-gradient-to-r from-emerald-400/0 via-emerald-400/90 to-emerald-400/0 transition-opacity duration-500 group-hover:opacity-40" />
           </button>
           <div className="text-center mt-10">
-            <h1>Sitio web para trabajos en equipos </h1>
-            <div className="text-3xl sm:text-4xl lg:text-5xl xl:text-6xl gradient-text">
-              Colabora rápido y eficientemente
+            <div className="md:text-8xl text-5xl font-bold gradient-text">
+              Colabora. Sin límites. Sin demoras.
             </div>
-            <p className="text-xl mt-7 text-center ">
+            <p className="text-xl md:text-2xl text-zinc-400 dark:text-gray-400 mt-8">
               Pon en marcha tus grandes ideas con tus compañeros rapidamente
               <br />
               en esta facil y rapida plataforma
@@ -47,7 +46,8 @@ export function Hero() {
           </div>
         </div>
         <Cards />
-      </div>w
+        <div className="p-10"></div>
+      </div>
     </section>
   );
 }

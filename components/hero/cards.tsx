@@ -9,7 +9,7 @@ export function Cards() {
       title: "Editor de codigo",
       value: "Editor de codigo",
       content: (
-        <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-black bg-black ring-white/30 ring-1 ">
+        <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-white bg-black ring-white/30 ring-1 ">
           <p>Editor de codigo</p>
           <CodeImg />
         </div>
@@ -19,7 +19,7 @@ export function Cards() {
       title: "Editor de Texto",
       value: "Editor de Texto",
       content: (
-        <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-black bg-black ring-white/30 ring-1">
+        <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-white bg-black ring-white/30 ring-1">
           <p>Editor de Texto</p>
           <TextImg />
         </div>
@@ -29,7 +29,7 @@ export function Cards() {
       title: "Editor de diagramas",
       value: "Editor de diagramas",
       content: (
-        <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-black bg-black ring-white/30 ring-1">
+        <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-white bg-black ring-white/30 ring-1">
           <p>Editor de diagramas</p>
           <DiagramImg />
         </div>
@@ -39,7 +39,7 @@ export function Cards() {
       title: "Hoja de calculo",
       value: "Hoja de calculo",
       content: (
-        <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-black bg-black ring-white/30 ring-1">
+        <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-white bg-black ring-white/30 ring-1">
           <p>Hoja de calculo</p>
           <HojaImg />
         </div>

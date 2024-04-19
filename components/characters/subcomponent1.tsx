@@ -17,7 +17,7 @@ export function Subcomponent1() {
               Un gran computador no tiene por qué ser grande.
             </p>
           </div>
-          <div className="relative col-span-2 rounded-3xl p-10">
+          <div className="relative col-span-4 md:col-span-2 rounded-3xl p-10">
             <Image
               src="/grid-bg.jpg" // reemplaza esto con la ruta a tu imagen
               alt="Background"

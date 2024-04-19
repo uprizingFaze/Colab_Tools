@@ -38,10 +38,10 @@ export function Hero() {
             <div className="md:text-8xl text-5xl font-bold gradient-text">
               Colabora. Sin límites. Sin demoras.
             </div>
-            <p className="text-xl md:text-3xl text-zinc-500 dark:text-gray-400-400 mt-8">
-              Pon en marcha tus grandes ideas con tus compañeros rapidamente
+            <p className="text-xl md:text-3xl text-zinc-500 dark:text-gray-400 mt-8">
+            Edita, codifica, colabora y crea juntos en tiempo real 
               <br />
-              en esta facil y rapida plataforma
+            con nuestra plataforma integral
             </p>
           </div>
         </div>

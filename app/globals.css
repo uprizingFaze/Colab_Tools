@@ -79,6 +79,19 @@
         background-image: radial-gradient(#ffffff33 1px, #000000 1px);
         background-size: 16px 16px;
     }
+
+    .grid-bg-1 {
+        background-image: linear-gradient(122deg, #671542, #C53017 51%, #FFAF2D);
+    }
+    .grid-bg-2 {
+        background-image: linear-gradient(162deg, #0e00d1 -50%, #b50d69);
+    }
+    .dark .grid-bg-2 {
+        background-image: linear-gradient(162deg, #090360 -50%, #680c3f);
+    }
+    .clip-path {
+        clip-path: inset(0 30% 0 0);
+      }
 }
 
 @layer base {
@@ -98,4 +111,3 @@
         @apply inline-flex font-normal bg-clip-text bg-[200%_auto] text-transparent animate-text-gradient bg-gradient-to-r from-cyan-500 via-violet-500 to-cyan-500 dark:from-cyan-500 dark:via-violet-500 dark:to-cyan-500;
     }
 }
-

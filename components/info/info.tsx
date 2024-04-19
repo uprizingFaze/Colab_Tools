@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button";
 export function Info() {
   return (
     <section className="p-4">
-      <div className="flex items-center justify-center h-screen bg-black rounded-xl ring-white/30 ring-1">
+      <div className="flex items-center justify-center h-screen bg-black rounded-3xl ring-white/30 ring-1">
         <div className="flex flex-col items-center justify-center text-center">
           <div className="text-xl md:text-4xl font-semibold text-white mb-6">
             Colab Tools

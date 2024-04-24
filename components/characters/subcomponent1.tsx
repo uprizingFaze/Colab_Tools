@@ -8,7 +8,7 @@ export function Subcomponent1() {
     <section className="p-4">
       <div className="">
         <div className="grid md:grid-cols-6 gap-6">
-          <div className="grid-bg-2 col-span-4 p-8 rounded-3xl ">
+          <div className="grid-bg-2 col-span-6 md:col-span-4 p-8 rounded-3xl ">
             <h3 className="text-xl font-medium text-white">Editor de texto</h3>
             <p className="text-lg pt-6 mr-12 md:mr-40 text-white">
               Nuestro editor de texto te permite trabajar en conjunto con tu
@@ -30,7 +30,7 @@ export function Subcomponent1() {
               </Link>
             </div>
           </div>
-          <div className="relative col-span-4 md:col-span-2 rounded-3xl p-10">
+          <div className="relative col-span-6 md:col-span-2 rounded-3xl p-10">
             <Image
               src="/grid-bg.jpg" // reemplaza esto con la ruta a tu imagen
               alt="Background"
@@ -51,9 +51,7 @@ export function Subcomponent1() {
                 visualización de ideas y procesos de manera clara y concisa.
                 Desde organigramas hasta diagramas de flujo, facilitamos la
                 comunicación y la colaboración entre tu equipo, asegurando que
-                todos estén alineados en la misma dirección y puedan contribuir
-                de manera efectiva a la creación de diagramas profesionales y
-                precisos.
+                todos estén alineados en la misma dirección.
               </p>
               <Link
                 href="https://one-simulation.vercel.app/"
@@ -61,6 +59,39 @@ export function Subcomponent1() {
               >
                 Vamos! <FaExternalLinkAlt className="ml-2" />
               </Link>
+            </div>
+          </div>
+          <div className="grid-bg-3 col-span-6 md:col-span-3 p-8 rounded-3xl ">
+            <h3 className="text-xl font-medium text-white">Hoja de calculo</h3>
+            <p className="text-lg pt-6  text-white">
+              Realiza análisis de datos y seguimiento de proyectos con nuestra
+              hoja de cálculo integrada. Colabora con tu equipo en la
+              manipulación y visualización de datos, asegurando decisiones
+              informadas y resultados precisos.
+            </p>
+            <div className="pt-8 rounded-lg">
+              <Image
+                src="/preview_4.webp"
+                alt="dummy image"
+                width="1000"
+                height="1000"
+              />
+            </div>
+          </div>
+          <div className="grid-bg-4 col-span-6 md:col-span-3 p-8 rounded-3xl ">
+            <h3 className="text-xl font-medium text-white">
+              ¡Totalmente gratis para todos!
+            </h3>
+            <p className="text-lg pt-6  text-white">
+              Enfocados en brindarte la mejor experiencia sin que te cueste
+              nada. Nuestra plataforma es completamente gratuita, lo que
+              significa que puedes disfrutar de todas las características y
+              beneficios sin tener que preocuparte por costos ocultos.
+            </p>
+            <div className="pt-8 rounded-lg">
+              <h1 className="text-3xl text-white md:text-7xl font-bold p-5 md:p-12">
+                Sin costo alguno para ti y tu equipo.
+              </h1>
             </div>
           </div>
         </div>

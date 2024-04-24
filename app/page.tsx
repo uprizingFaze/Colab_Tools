@@ -9,9 +9,9 @@ export default function Home() {
     <main>
       <Hero />
       <Info />
-      <Tools />
-      <Subcomponent1 />
+      {/* <Tools /> */}
       <Characters />
+      <Subcomponent1 />
     </main>
   );
 }

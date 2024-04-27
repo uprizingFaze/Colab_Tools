@@ -126,7 +126,9 @@ button {
     cursor: url('/cursors/link.cur'), auto;
 }
 
-
+html {
+    scroll-behavior: smooth;
+  }
 
 @layer base {
     * {

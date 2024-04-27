@@ -21,7 +21,7 @@ export default function AnimatedText() {
           animate={{ backgroundSize: ["0% 100%", "100% 100%", "0% 100%"] }}
           transition={{ duration: 5.2, ease: "linear", delay: 0.5, repeat: Infinity }}
           style={{ backgroundRepeat: "no-repeat", backgroundPosition: "left center", display: "inline" }}
-          className="relative inline-block pb-1 px-1  bg-gradient-to-r from-green-700 to-green-600 text-white"
+          className="relative inline-block pb-1 px-1  bg-gradient-to-r from-green-700 to-green-600 text-black dark:text-white"
         >
           plataforma
           <motion.span

@@ -4,10 +4,15 @@ import { motion, useMotionValue } from "framer-motion";
 import { useEffect } from "react";
 
 export default function AnimatedCursor() {
-  const x = useMotionValue(window.matchMedia("(min-width: 768px)").matches ? 250 : 50);
+  const isClient = typeof window === 'object';
+  const x = useMotionValue(isClient && window.matchMedia("(min-width: 768px)").matches ? 250 : 50);
   const y = useMotionValue(600);
 
   useEffect(() => {
+    if (!isClient) {
+      return;
+    }
+
     const handleResize = () => {
       if (window.matchMedia("(min-width: 768px)").matches) {
         x.set(250);
@@ -21,7 +26,7 @@ export default function AnimatedCursor() {
     return () => {
       window.removeEventListener("resize", handleResize);
     };
-  }, [x]);
+  }, [x, isClient]);
 
   return (
     <motion.div

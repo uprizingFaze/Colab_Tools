@@ -7,7 +7,7 @@ import AnimatedText from "@/components/ui/AnimatedText";
 
 export function Hero() {
   return (
-    <section className="pt-44 mx-5">
+    <section className="pt-44 mx-5" id="home">
       <AnimatedCursor />
       <div className="flex flex-col">
         <div className="flex flex-col justify-center items-center ">

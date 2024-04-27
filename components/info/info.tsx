@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button";
 
 export function Info() {
   return (
-    <section className="p-4">
+    <section className="p-4" id="info">
       <div className="flex items-center justify-center h-screen bg-white dark:bg-black rounded-3xl ring-black/20 dark:ring-white/30 ring-1">
         <div className="flex flex-col items-center justify-center text-center">
           <div className="text-xl md:text-4xl font-semibold text-black dark:text-white mb-6">

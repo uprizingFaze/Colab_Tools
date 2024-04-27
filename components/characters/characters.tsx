@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export function Characters() {
   return (
-    <section className="p-4">
+    <section className="p-4" id="apps">
       <div className="grid-bg-1 rounded-3xl grid md:grid-cols-2 gap-4 pt-6 md:pt-0">
         <div>
           <h3 className="pl-4 md:pl-12 py-3 md:py-9 text-xl text-white">

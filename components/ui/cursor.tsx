@@ -28,7 +28,7 @@ export default function Cursor() {
         left: "0px",
         pointerEvents: "none",
       }}
-      className="text-white rounded-md px-2 bg-blue-600 z-50"
+      className="text-white rounded-md px-2 bg-blue-900 z-50"
     >
       uprizingFaze
     </div>

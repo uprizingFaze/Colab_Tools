@@ -37,7 +37,7 @@ export default function AnimatedText() {
               width="30"
               height="30"
             />
-            <span className="ml-2 px-2 text-base text-white rounded-md bg-green-600">ElRincondelDev</span>
+            <span className="ml-2 px-2 text-base text-white rounded-md bg-green-900">ElRincondelDev</span>
           </motion.span>
         </motion.span> integral
       </div>

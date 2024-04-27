@@ -8,6 +8,7 @@
 - [Editor de código](https://github.com/uprizingFaze/code-colab_tools)
 - [Diagramas](https://github.com/uprizingFaze/flowchart-colab_tools)
 - [Hoja de calculo](https://github.com/uprizingFaze/spreadsheet-colab_tools)
+- [Documentación](https://github.com/uprizingFaze/docs-colab_tools)
 
 
 #### Documentacion del proyecyto

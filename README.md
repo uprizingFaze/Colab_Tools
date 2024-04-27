@@ -104,3 +104,8 @@ pnpm dev
 # o
 bun dev
 ```
+# IMPORTANTE
+
+### Mensaje para los jurados
+
+> Si en algún momento dejan de funcionar las apps por favor enviar un correo a uprizingFaze@gmail.com, para cambiar las API's, ya que no tengo muchos créditos 🚨.

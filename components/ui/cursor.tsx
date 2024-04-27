@@ -5,9 +5,16 @@ export default function Cursor() {
   useEffect(() => {
     const cursorText = document.getElementById("cursor-text");
     document.addEventListener("mousemove", (e) => {
-      if (cursorText) {
-        cursorText.style.left = e.pageX + 17 + "px";
-        cursorText.style.top = e.pageY + 14 + "px";
+      if (window.matchMedia("(min-width: 768px)").matches) {
+        if (cursorText) {
+          cursorText.style.display = "block";
+          cursorText.style.left = e.pageX + 17 + "px";
+          cursorText.style.top = e.pageY + 14 + "px";
+        }
+      } else {
+        if (cursorText) {
+          cursorText.style.display = "none";
+        }
       }
     });
   }, []);

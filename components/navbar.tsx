@@ -63,8 +63,8 @@ function NavbarDemo({ className }: { className?: string }) {
         </MenuItem>
         <MenuItem setActive={setActive} active={active} item="Docs">
           <div className="flex flex-col space-y-4 text-sm">
-            <HoveredLink href="/hobby">Documentación</HoveredLink>
-            <HoveredLink href="/individual">Repositorio</HoveredLink>
+            <HoveredLink href="https://docs.colabtools.online">Documentación</HoveredLink>
+            <HoveredLink href="https://github.com/uprizingFaze/Colab_Tools">Repositorio</HoveredLink>
           </div>
         </MenuItem>
         <MenuItem setActive={setActive} active={active} item="Mode">

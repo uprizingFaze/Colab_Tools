@@ -1,5 +1,7 @@
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
+import { FaExternalLinkAlt } from "react-icons/fa";
 
 export function Characters() {
   return (
@@ -12,7 +14,7 @@ export function Characters() {
           <h2 className="pl-4 md:pl-12 py-3 md:py-8 text-5xl font-bold text-white">
             Live coding en equipo.
           </h2>
-          <p className="pl-4 md:pl-12 pr-8 md:pr-32 text-lg mt-10 md:my-8  text-white">
+          <p className="pl-4 md:pl-12 pr-8 md:pr-32 text-lg mt-10 md:my-8 text-white">
             Con nuestro editor de código integrado, tu equipo puede colaborar en
             el desarrollo de proyectos de software de manera eficiente y en
             tiempo real. Desde la corrección de errores hasta la creación de
@@ -23,6 +25,12 @@ export function Characters() {
             entorno de desarrollo robusto y seguro para todo tipo de proyectos.
             Únete a nosotros y lleva tu desarrollo al siguiente nivel.
           </p>
+          <Link
+            href="https://code.colabtools.online/"
+            className="pl-4 md:pl-12 pr-8 md:pr-32 underline text-2xl font-bold text-blue-500 hover:text-blue-700 inline-flex items-center py-4"
+          >
+            Vamos! <FaExternalLinkAlt className="ml-2" />
+          </Link>
         </div>
         <div className="relative overflow-hidden flex items-center">
           <div className="py-8 justify-self-end px-4 ">

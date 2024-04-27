@@ -23,7 +23,7 @@ export function Subcomponent1() {
             </p>
             <div className="md:px-24 mt-8">
               <Link
-                href="https://one-simulation.vercel.app/"
+                href="https://text.colabtools.online/"
                 className="underline text-xl font-bold text-blue-600 hover:text-blue-700 inline-flex items-center"
               >
                 Vamos! <FaExternalLinkAlt className="ml-2" />
@@ -32,7 +32,7 @@ export function Subcomponent1() {
           </div>
           <div className="relative col-span-6 md:col-span-2 rounded-3xl p-10">
             <Image
-              src="/grid-bg.jpg" // reemplaza esto con la ruta a tu imagen
+              src="/grid-bg.jpg"
               alt="Background"
               layout="fill"
               objectFit="cover"
@@ -54,7 +54,7 @@ export function Subcomponent1() {
                 todos estén alineados en la misma dirección.
               </p>
               <Link
-                href="https://one-simulation.vercel.app/"
+                href="https://flowchart.colabtools.online/"
                 className="underline text-2xl font-bold text-blue-500 hover:text-blue-700 inline-flex items-center py-4"
               >
                 Vamos! <FaExternalLinkAlt className="ml-2" />
@@ -70,12 +70,18 @@ export function Subcomponent1() {
               informadas y resultados precisos.
             </p>
             <div className="pt-8 rounded-lg">
-              <Image
-                src="/preview_4.webp"
-                alt="dummy image"
-                width="1000"
-                height="1000"
-              />
+              <Link
+                href="https://flowchart.colabtools.online/"
+                className="underline text-2xl font-bold text-blue-500 hover:text-blue-700 inline-flex items-center py-4"
+              >
+                <Image
+                  src="/spreadsheet.png"
+                  alt="dummy image"
+                  width="1000"
+                  height="1000"
+                  className="rounded-3xl"
+                />
+              </Link>
             </div>
           </div>
           <div className="grid-bg-4 col-span-6 md:col-span-3 p-8 rounded-3xl ">

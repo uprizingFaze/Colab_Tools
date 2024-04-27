@@ -1,5 +1,6 @@
 import React from "react";
 import { Button } from "@/components/ui/button";
+import Link from "next/link";
 
 export function Info() {
   return (
@@ -23,7 +24,9 @@ export function Info() {
             </p>
           </div>
           <div className="mt-16">
-            <Button variant="me">Ver herramientas</Button>
+            <Button asChild variant="me">
+              <Link href="#apps">Ver herramientas</Link>
+            </Button>
           </div>
         </div>
       </div>

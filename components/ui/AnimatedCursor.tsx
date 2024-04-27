@@ -5,9 +5,7 @@ import { useEffect, useState } from "react";
 
 export default function AnimatedCursor() {
   const isClient = typeof window === 'object';
-  const [initialX, setInitialX] = useState(isClient && window.matchMedia("(min-width: 768px)").matches ? 250 : 50);
-  const x = useMotionValue(initialX);
-  const y = useMotionValue(600);
+  const [isLargeScreen, setIsLargeScreen] = useState(isClient && window.matchMedia("(min-width: 768px)").matches);
 
   useEffect(() => {
     if (!isClient) {
@@ -15,9 +13,7 @@ export default function AnimatedCursor() {
     }
 
     const handleResize = () => {
-      const newInitialX = window.matchMedia("(min-width: 768px)").matches ? 250 : 50;
-      setInitialX(newInitialX);
-      x.set(newInitialX);
+      setIsLargeScreen(window.matchMedia("(min-width: 768px)").matches);
     };
 
     window.addEventListener("resize", handleResize);
@@ -25,14 +21,17 @@ export default function AnimatedCursor() {
     return () => {
       window.removeEventListener("resize", handleResize);
     };
-  }, [x, isClient]);
+  }, [isClient]);
+
+  const x = useMotionValue(isLargeScreen ? 250 : 50);
+  const y = useMotionValue(600);
 
   return (
     <motion.div
-      initial={{ x: initialX, y: y.get() }}
+      initial={{ x: x.get(), y: y.get() }}
       animate={{ 
-        x: [initialX, 450, 450, initialX, initialX], 
-        y: [600, 600, 200, 200, 600] 
+        x: isLargeScreen ? [250, 450, 450, 250, 250] : [50, 100, 100, 50, 50], 
+        y: isLargeScreen ? [600, 600, 200, 200, 600] : [200, 200, 100, 100, 200] 
       }}
       transition={{ duration: 4, repeat: Infinity, repeatType: "loop" }}
       style={{

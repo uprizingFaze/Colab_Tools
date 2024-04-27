@@ -1,7 +1,7 @@
 # Colab_Tools
 ### Repo de la Hackathon Del Dev
 
-<img src="https://www.colabtools.online/web.png" width="536" alt="Collaborative Spreadsheet (Advanced)" />
+<img src="https://www.colabtools.online/web.png"  alt="Herramienta de colaboracion en linea)" />
 
 ### Links Repos
 - [Editor de texto](https://github.com/uprizingFaze/text-colab_tools)

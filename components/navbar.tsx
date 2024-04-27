@@ -37,26 +37,26 @@ function NavbarDemo({ className }: { className?: string }) {
           <div className="  text-sm grid grid-cols-2 gap-10 p-4">
             <ProductItem
               title="Editor de Código"
-              href="https://algochurn.com"
-              src="/code_1.png"
+              href="https://spreadsheet.colabtools.online"
+              src="/code.png"
               description="Edita y Colabora en Proyectos de Desarrollo de Software en Tiempo Real con Tu Equipo."
             />
             <ProductItem
               title="Editor de Texto"
-              href="https://tailwindmasterkit.com"
-              src="/code_1.png"
+              href="https://text.colabtools.online"
+              src="/text.png"
               description="Colabora Simultáneamente en la Creación de Documentos y Contenidos con Nuestro Editor de Texto Integrado."
             />
             <ProductItem
               title="Editor de Diagramas"
-              href="https://gomoonbeam.com"
-              src="/code_1.png"
+              href="https://flowchart.colabtools.online"
+              src="/flowshart.png"
               description="Crea y Comparte Diagramas y Flujos de Trabajo con Tu Equipo de Forma Clara y Concisa."
             />
             <ProductItem
               title="Hoja de Cálculo"
-              href="https://userogue.com"
-              src="/code_1.png"
+              href="https://spreadsheet.colabtools.online/"
+              src="/spreadsheet.png"
               description="Realiza Análisis de Datos y Seguimiento de Proyectos en Equipo con Nuestra Hoja de Cálculo Integrada."
             />
           </div>

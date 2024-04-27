@@ -57,8 +57,8 @@ export function Cards() {
 const CodeImg = () => {
   return (
     <Image
-      src="/preview_1.webp"
-      alt="dummy image"
+      src="/code.png"
+      alt="Editor de codigo"
       width="1000"
       height="1000"
       className="object-cover object-left-top h-[60%]  md:h-[90%] absolute -bottom-10 inset-x-0 w-[90%] rounded-xl mx-auto"
@@ -70,8 +70,8 @@ const CodeImg = () => {
 const TextImg = () => {
   return (
     <Image
-      src="/preview_2.webp"
-      alt="dummy image"
+      src="/text.png"
+      alt="Editor de Texto"
       width="1000"
       height="1000"
       className="object-cover object-left-top h-[60%]  md:h-[90%] absolute -bottom-10 inset-x-0 w-[90%] rounded-xl mx-auto"
@@ -82,8 +82,8 @@ const TextImg = () => {
 const DiagramImg = () => {
     return (
       <Image
-        src="/preview_3.webp"
-        alt="dummy image"
+        src="/flowshart.png"
+        alt="Editor de diagramas"
         width="1000"
         height="1000"
         className="object-cover object-left-top h-[60%]  md:h-[90%] absolute -bottom-10 inset-x-0 w-[90%] rounded-xl mx-auto"
@@ -94,8 +94,8 @@ const DiagramImg = () => {
   const HojaImg = () => {
     return (
       <Image
-        src="/preview_4.webp"
-        alt="dummy image"
+        src="/spreadsheet.png"
+        alt="Hoja de calculo"
         width="1000"
         height="1000"
         className="object-cover object-left-top h-[60%]  md:h-[90%] absolute -bottom-10 inset-x-0 w-[90%] rounded-xl mx-auto"

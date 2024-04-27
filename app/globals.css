@@ -83,31 +83,50 @@
     .grid-bg-1 {
         background-image: linear-gradient(122deg, #b6186f, #d33b20 51%, #fcba50);
     }
+
     .dark .grid-bg-1 {
         background-image: linear-gradient(122deg, #671542, #C53017 51%, #FFAF2D);
     }
+
     .grid-bg-2 {
         background-image: linear-gradient(162deg, #0e00d1 -50%, #b50d69);
     }
+
     .dark .grid-bg-2 {
         background-image: linear-gradient(162deg, #090360 -50%, #680c3f);
     }
+
     .grid-bg-3 {
         background-image: linear-gradient(153deg, #dd0b74 5%, #ea1000 105%);
     }
+
     .dark .grid-bg-3 {
         background-image: linear-gradient(153deg, #93054B 5%, #FF2011 105%);
     }
+
     .grid-bg-4 {
         background-image: linear-gradient(165deg, #ff3617 4%, #FFA221 115%);
     }
+
     .dark .grid-bg-4 {
         background-image: linear-gradient(165deg, #d51c00 4%, #8f5c15 115%);
     }
+
     .clip-path {
         clip-path: inset(0 30% 0 0);
-      }
+    }
 }
+
+body {
+    cursor: url('/cursors/pointer.cur'), auto;
+}
+
+a,
+button {
+    cursor: url('/cursors/link.cur'), auto;
+}
+
+
 
 @layer base {
     * {
@@ -116,15 +135,17 @@
 
     body {
         @apply bg-background text-foreground overflow-visible overflow-x-hidden;
+
     }
 
     .gradient-text {
         @apply bg-clip-text text-transparent bg-gradient-to-b from-stone-600 dark:from-white to-stone-950 dark:to-stone-700;
     }
+
     .gradient-text-info {
-        @apply bg-clip-text text-transparent bg-gradient-to-b from-stone-600 to-stone-950 dark:from-white dark:to-stone-700 ;
+        @apply bg-clip-text text-transparent bg-gradient-to-b from-stone-600 to-stone-950 dark:from-white dark:to-stone-700;
     }
-    
+
 
     .gradient-text-effect {
         @apply inline-flex font-normal bg-clip-text bg-[200%_auto] text-transparent animate-text-gradient bg-gradient-to-r from-cyan-500 via-violet-500 to-cyan-500 dark:from-cyan-500 dark:via-violet-500 dark:to-cyan-500;

@@ -2,10 +2,13 @@ import React from "react";
 import { Button } from "@/components/ui/button";
 import { Cards } from "@/components/hero/cards";
 import Link from "next/link";
+import AnimatedCursor from "@/components/ui/AnimatedCursor";
+import AnimatedText from "@/components/ui/AnimatedText";
 
 export function Hero() {
   return (
     <section className="pt-44 mx-5">
+      <AnimatedCursor />
       <div className="flex flex-col">
         <div className="flex flex-col justify-center items-center ">
           <button className="bg-slate-300 dark:bg-black no-underline group cursor-pointer relative shadow-2xl shadow-zinc-900 rounded-full p-px text-xs font-semibold leading-6  text-white inline-block">
@@ -37,16 +40,7 @@ export function Hero() {
             </Link>
             <span className="absolute -bottom-0 left-[1.125rem] h-px w-[calc(100%-2.25rem)] bg-gradient-to-r from-emerald-400/0 via-emerald-400/90 to-emerald-400/0 transition-opacity duration-500 group-hover:opacity-40" />
           </button>
-          <div className="text-center mt-10">
-            <div className="md:text-8xl text-5xl font-bold gradient-text">
-              Colabora. Sin límites. Sin demoras.
-            </div>
-            <p className="text-xl md:text-3xl text-zinc-500 dark:text-gray-400 mt-8">
-              Edita, codifica, colabora y crea juntos en tiempo real
-              <br />
-              con nuestra plataforma integral
-            </p>
-          </div>
+          <AnimatedText />
         </div>
         <Cards />
         <div className="p-10"></div>

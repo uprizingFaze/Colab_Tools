@@ -45,7 +45,7 @@ function NavbarDemo({ className }: { className?: string }) {
               title="Editor de Texto"
               href="https://text.colabtools.online"
               src="/text.png"
-              description="Colabora Simultáneamente en la Creación de Documentos y Contenidos con Nuestro Editor de Texto Integrado."
+              description="Colabora Simultáneamente en la Creación de Documentos."
             />
             <ProductItem
               title="Editor de Diagramas"

@@ -1,11 +1,12 @@
 "use client"
 
 import { motion, useMotionValue } from "framer-motion";
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 
 export default function AnimatedCursor() {
   const isClient = typeof window === 'object';
-  const x = useMotionValue(isClient && window.matchMedia("(min-width: 768px)").matches ? 250 : 50);
+  const [initialX, setInitialX] = useState(isClient && window.matchMedia("(min-width: 768px)").matches ? 250 : 50);
+  const x = useMotionValue(initialX);
   const y = useMotionValue(600);
 
   useEffect(() => {
@@ -14,11 +15,9 @@ export default function AnimatedCursor() {
     }
 
     const handleResize = () => {
-      if (window.matchMedia("(min-width: 768px)").matches) {
-        x.set(250);
-      } else {
-        x.set(50);
-      }
+      const newInitialX = window.matchMedia("(min-width: 768px)").matches ? 250 : 50;
+      setInitialX(newInitialX);
+      x.set(newInitialX);
     };
 
     window.addEventListener("resize", handleResize);
@@ -30,9 +29,9 @@ export default function AnimatedCursor() {
 
   return (
     <motion.div
-      initial={{ x: x.get(), y: y.get() }}
+      initial={{ x: initialX, y: y.get() }}
       animate={{ 
-        x: [x.get(), 450, 450, x.get(), x.get()], 
+        x: [initialX, 450, 450, initialX, initialX], 
         y: [600, 600, 200, 200, 600] 
       }}
       transition={{ duration: 4, repeat: Infinity, repeatType: "loop" }}
